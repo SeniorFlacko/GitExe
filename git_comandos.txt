@@ -1,0 +1,11 @@
+git init
+git add archibo_url.extension
+git status
+git add .
+git commit -m "Primer commit 
+git checkout -- .
+git log
+git add *.png
+git add -A
+git reset archibo_url.extension
+git reset *.xlm
