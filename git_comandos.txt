@@ -9,3 +9,12 @@ git add *.png
 git add -A
 git reset archibo_url.extension
 git reset *.xml
+
+git log --oneline
+git log --oneline --decorate --all --graph
+
+git status -s ( silent )
+git status -s -b ( silent and brach )
+ 
+* Dos guiones: Una palabra *
+* Un guion: Comandos independientes pot letra *
