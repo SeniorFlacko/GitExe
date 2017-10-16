@@ -36,3 +36,30 @@ git config --global -e ( Parametros de configuracion global )
 * Para salir :quit *
 
 git config --global -l
+
+
+* Diferencia entre COMMIT vs ACTUALIDAD con git diff *
+
+* Regresion de un archivo al estado del ultimo commit con git checkout *
+
+* Pasos ocasionales para revertir cambios añadidos al stage al ultimo commit *
+
+git diff ( Diferencia entre el ultimo commit y como esta actualmente )
+
+git diff --staged ( Diferencia entre el ultimo commit y como esta en el stage )
+
+git reset HEAD README.md ( Lo quita del stage )
+
+git checkout -- README.md ( Lo reestablece a la ultima version donde se le dio commit )
+
+
+git commit -am "Mensaje de commit" ( Abreviacion para añadir al stage y ademas hacer commit )
+
+
+* Para deshacer mensajes de los commits *
+
+git commit --amend -m "Mensaje correcto para el commit"
+
+* Para revertir el commit *
+
+git reset --soft HEAD^
