@@ -1,0 +1,38 @@
+# GitExe
+Making excercises of Git 
+
+
+We learn all this commands 
+
+git init
+git add archibo_url.extension
+git status
+git add .
+git commit -m "Primer commit 
+git checkout -- .
+git log
+git add *.png
+git add -A
+git reset archibo_url.extension
+git reset *.xml
+
+git log --oneline
+git log --oneline --decorate --all --graph
+
+git status -s ( silent )
+git status -s -b ( silent and brach )
+
+* Dos guiones: Una palabra *
+* Un guion: Comandos independientes pot letra *
+
+
+git config --global alias.lg "log --oneline --decorate --all --graph" ( Hacer un shorcut para el log )
+git config --global alias.s "status -s -b" ( Hacer alias para status )
+
+* Toda la infotmacion grabada en el global esta  en: *
+
+git config --global -e ( Parametros de configuracion global )
+
+* Para salir :quit *
+
+git config --global -l
