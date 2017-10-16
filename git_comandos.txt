@@ -8,4 +8,4 @@ git log
 git add *.png
 git add -A
 git reset archibo_url.extension
-git reset *.xlm
+git reset *.xml
