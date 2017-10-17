@@ -63,3 +63,13 @@ git commit --amend -m "Mensaje correcto para el commit"
 * Para revertir el commit *
 
 git reset --soft HEAD^
+
+git commit --amend ( Editar: Tap a , Salir de edicion: Esc , Escribir y Salir: :wq )
+<br>
+git reset --soft 50cf7bc
+<br>
+git reset --mixed 209465c
+<br>
+git reset --hard 209465c
+<br>
+git reflog ( Ver el historial de cualquier cambio sin importar los commits )
